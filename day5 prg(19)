@@ -1,0 +1,8 @@
+ #write a python program function to reveres a string and convert lower case into upper case
+
+def strdef (reversestr):
+    s = ""
+    for ch in str:
+        s = ch + s
+    return s
+ 
