@@ -1,0 +1,24 @@
+
+ 
+# Python program to find N largest
+# element from given list of integers
+ 
+l = [14,67,23,5,62]
+n = 0
+l.sort()
+print(l[-n:])
+
+
+l= [14,67,23,5,62]
+n=-5
+l.sort()
+print(l[-n:])
+
+
+l = [14,67,23,5,62]
+n=1
+l.sort()
+print(l[-n:])
+
+
+
