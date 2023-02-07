@@ -1,0 +1,30 @@
+a = "saveetha school of engineering"
+b = "my name is  tharun kumar"
+def count(statement):
+    
+    vcount = 0
+    ccount = 0
+    for i in statement:
+        if i == 'a':
+            vcount = vcount + 1
+        elif i =='e':
+            vcount = vcount + 1
+        elif i == 'i':
+            vcount = vcount + 1
+        elif i == 'o':
+            vcount = vcount + 1
+        elif i == 'u':
+            vcount = vcount + 1
+        else:
+            ccount = ccount + 1
+
+    print("Total vowels is: ",vcount)
+    print("Total consonants is",ccount)
+    if vcount < ccount:
+        print("Consonants are maximum")
+    else:
+        print("vowels are maximum")
+             
+
+
+count(b)
