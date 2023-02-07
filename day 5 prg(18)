@@ -1,0 +1,11 @@
+# 2. Write a python program to find  the given year is leap year or not:
+
+n=eval(input("Enter a year"))
+if(n%400==0):
+    print("Leap year")
+elif(n%100==0):
+    print("Not a leap year")
+elif(n%4==0):
+    print("Leap year")
+else:
+    print("The given year is not a leap year")
